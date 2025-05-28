@@ -2,10 +2,10 @@ from fasthtml.common import *
 from random import randint
 
 # for Docker
-# app, rt = fast_app(static_path="static")
+app, rt = fast_app(static_path="static")
 
 # for local
-app, rt = fast_app(static_path="app/static")
+# app, rt = fast_app(static_path="app/static")
 
 default_header = Head(
                     Title("Bell Curve D20"),
