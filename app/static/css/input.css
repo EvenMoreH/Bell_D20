@@ -4,11 +4,11 @@
 
 /* Default Body Style */
 .body {
-  @apply bg-[rgba(44,44,44,1)] text-gray-100 max-w-3xl container mx-auto
+  @apply bg-[rgba(44,44,44,1)] text-gray-100 container mx-auto w-full
 }
 
 /* EXAMPLE of reusable button style */
 .btn {
-    @apply bg-blue-500 text-white font-semibold text-5xl min-w-48 p-4 m-3 rounded shadow-md shadow-black
+    @apply bg-blue-500 text-white font-semibold text-5xl min-w-48 p-4 m-3 rounded-xl shadow-md shadow-black
     hover:bg-blue-700 hover:animate-pulse
   }
